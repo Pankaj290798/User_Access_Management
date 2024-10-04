@@ -17,7 +17,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwQGdtYWlsLmNvbSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzI3OTMzNjA1LCJleHAiOjE3Mjc5MzUwNDV9.1sKlvQiQEjSpxMnzgS7DLVFki16nqopT0WF8EfpkhX4",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3MjgwMjE0NTIsImV4cCI6MTcyODAyMjg5Mn0.W_zd8FZ4wM2x1oZfWj87OmZ3wtkPBmBRL8kIGoO18HU",
 									"type": "string"
 								}
 							]
@@ -26,7 +26,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstName\":\"Krishna\",\n    \"lastName\":\"Lilhare\",\n    \"email\":\"k@gmail.com\",\n    \"password\":\"Krishna@123\"\n}",
+							"raw": "{\n    \"firstName\":\"Pankaj\",\n    \"lastName\":\"Chaudhari\",\n    \"email\":\"pankaj@gmail.com\",\n    \"password\":\"Pankaj@123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -94,7 +94,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\":\"k@gmail.com\",\n    \"password\":\"Krishna@123\"\n}",
+							"raw": "{\n    \"email\":\"pankaj@gmail.com\",\n    \"password\":\"Pankaj@123\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -102,14 +102,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/login",
+							"raw": "http://localhost:8080/signIn",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"login"
+								"signIn"
 							]
 						}
 					},
