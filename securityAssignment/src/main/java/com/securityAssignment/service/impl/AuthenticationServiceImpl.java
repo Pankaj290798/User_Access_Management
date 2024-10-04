@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -57,7 +58,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     }
 
     public List<User> getAll() {
-        return userRepository.findAll();
+        return userRepository.findAll().stream().filter(e-> e.getRole().equals(Role.USER)).collect(Collectors.toList());
     }
 
     public String deleteUser(Long id) {
